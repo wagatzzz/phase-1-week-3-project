@@ -1,0 +1,24 @@
+/*#container{
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}*/
+.main_body{
+  display: flex;
+}
+#container, #list-of-movies{
+  flex: 1;
+
+}
+#list-of-movies{
+  border: 1px solid black;
+}
+img{
+  height: 250px;
+  width: 250px;
+}
